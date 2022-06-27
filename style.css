@@ -1,4 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Latin:wght@200&family=Nanum+Gothic&display=swap');
+
 html, body {
   height: 100%;
   width: 100%;
+  
+}
+
+
+*{
+  font-family: Nanum Gothic;
+}
+
+
+#left{
+  border: 2px solid black;
+  color:red;
+  height: 500px;
+  width:300px;
+  margin:20px
+
+}
+#middle{
+  border: 2px solid black;
+  text-align: center;
+  background-color: #9f8e8e;
+  margin:20px
+
+}
+#right{
+  border: 2px solid black;
+  margin:20px
+
+}
+
+.BigBox{
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  margin:20px
 }
